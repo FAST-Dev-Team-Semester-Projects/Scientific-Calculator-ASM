@@ -46,7 +46,7 @@ Ensure you have the following installed on your system:
     If the library is located in a different directory, you need to link it when compiling your `.asm` file. For example, if the library is in the directory `C:\Irvine32\lib\`, specify the path during the assembly process like this:
 
     ```bash
-    ml /c /coff calculator_functions.asm
+    ml /c /coff Backend.asm
     link /subsystem:console Backend.obj C:\Irvine32\lib\irvine32.lib
     ```
 
@@ -54,10 +54,10 @@ Ensure you have the following installed on your system:
 
     The project uses a combination of C++ (frontend) and Assembly (backend). The C++ frontend interacts with the assembly backend to handle user input, display results, and perform calculations.
 
-    - **Assemble the backend (`calculator_functions.asm` file)**:
+    - **Assemble the backend (`Backend.asm` file)**:
 
       ```bash
-      ml /c /coff calculator_functions.asm
+      ml /c /coff Backend.asm
       link /subsystem:console Backend.obj C:\Irvine32\lib\irvine32.lib
       ```
 
@@ -84,7 +84,7 @@ Ensure you have the following installed on your system:
 - **Irvine32 library**: The library contains essential functions for handling input/output, memory, and more, commonly used in MASM-based projects.
 - The project consists of two parts:
   - **Frontend (`Calculator.cpp`)**: Handles user input and output formatting, and interfaces with the assembly backend.
-  - **Backend (`calculator_functions.asm`)**: Implements the core mathematical operations and logic.
+  - **Backend (`Backend.asm`)**: Implements the core mathematical operations and logic.
 - Ensure that the path to the `irvine32.lib` file is correctly specified based on where it is located on your system. You can update the path in the `link` command accordingly.
 
 ## Project Structure
