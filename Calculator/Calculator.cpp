@@ -182,7 +182,7 @@ float performTrigFunction(float angle, const char* func) // Angle and the specif
     }
     else if (func[0] == 't' && func[1] == 'a' && func[2] == 'n')
     {
-        // Check for angles where the tangent function has vertical asymptotes (90° or 270°)
+        // Check for angles where the tangent function has vertical asymptotes (90Â° or 270Â°)
         if (fmod(angle, 180.0f) == 90.0f)
         {
             cout << "\nError: Tangent is undefined at 90/270 degrees\n\n";
