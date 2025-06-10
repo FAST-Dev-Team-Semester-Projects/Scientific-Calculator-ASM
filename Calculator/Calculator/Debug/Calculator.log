@@ -1,4 +1,0 @@
-﻿  Calculator.cpp
-D:\FAST\Courses\2nd Year\3rd Semester\COAL - Lab\Project\Calculator\Calculator.cpp(309,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\FAST\Courses\2nd Year\3rd Semester\COAL - Lab\Project\Calculator\Calculator.cpp(493,1): warning C4715: 'parseInput': not all control paths return a value
-  Calculator.vcxproj -> D:\FAST\Courses\2nd Year\3rd Semester\COAL - Lab\Project\Calculator\Debug\Calculator.exe
