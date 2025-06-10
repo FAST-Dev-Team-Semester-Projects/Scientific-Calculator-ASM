@@ -98,7 +98,7 @@ Ensure you have the following installed on your system:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/SHaiderM16/Scientific-Calculator-ASM/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/FAST-Dev-Team-Semester-Projects/Scientific-Calculator-ASM/blob/main/LICENSE) file for details.
 
 ## Contact
 
